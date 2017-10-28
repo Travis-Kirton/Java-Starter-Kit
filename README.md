@@ -1,2 +1,38 @@
 # JavaScript-Starter-Kit
 A JS environment that can be used as a boiler-plate for applications
+
+### Includes set-up for the following:
+
+#### 1) Editor
+Running VS Code with **editorconfig.org** plugin
+* included ```.editorconfig``` 
+
+---
+
+#### 2) Packages
+Running NPM
+* included ```.package.json```
+* run ``` npm install -g nsp ``` (Node Security Project)
+
+---
+
+#### 3) Web Servers
+Running Express
+* included within ```package.json```
+* included ``` srcServer.js ``` start script within /buildScripts
+
+---
+
+#### 4) Sharing Work-in-Progress
+Running localTunnel
+* run ```npm install localtunnel -g```
+* command ```lt --port <portnumber>``` to generate URL for sharing
+* command ``` lt --port <portnumber> <subdomain>``` to generate URL using specified subdomain
+
+---
+
+#### 4) Task Automation
+Using NPM Scipts
+* command ```npm start``` to start server & run security checks
+* command ``` npm run share ``` starts server & localtunnel URL generation
+
