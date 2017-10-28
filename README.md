@@ -31,8 +31,25 @@ Running localTunnel
 
 ---
 
-#### 4) Task Automation
+#### 5) Task Automation
 Using NPM Scipts
 * command ```npm start``` to start server & run security checks
 * command ``` npm run share ``` starts server & localtunnel URL generation
+
+---
+
+#### 6) Transpiling
+Using Babel
+* included ``` babel-node``` for build scripts, allowing ES6 features
+
+---
+
+#### 7) Bundling
+Using Webpack
+* Included ``` webpack.config.dev.js ``` in root
+* transpiles and bundles babel/ES6 JS down to ES5
+
+#### 8) Linting
+
+
 
