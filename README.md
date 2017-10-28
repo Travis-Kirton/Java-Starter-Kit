@@ -49,7 +49,13 @@ Using Webpack
 * Included ``` webpack.config.dev.js ``` in root
 * transpiles and bundles babel/ES6 JS down to ES5
 
+---
+
 #### 8) Linting
+Using ESLint & ESLint-watch 
+* Included ```.eslintrc.json ``` in root & included linting         within ```npm start ``` build scripts
+* command ```npm run lint ``` 
+* command ```npm run lint:watch ```
 
 
 
