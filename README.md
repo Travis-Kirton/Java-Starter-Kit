@@ -57,5 +57,17 @@ Using ESLint & ESLint-watch
 * command ```npm run lint ``` 
 * command ```npm run lint:watch ```
 
+---
+
+#### 9) Testing & CI
+
+##### Testing
+* Test framework: Mocha
+* Assertion library: Chai
+* Helper libraries: JSDOM
+
+* command ```npm test ``` to run Mocha tests
+
+##### CI
 
 
